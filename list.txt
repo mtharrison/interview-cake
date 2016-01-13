@@ -1,0 +1,23 @@
+TAP version 13
+# New Trie has a root node with val of null and no children
+ok 1 It's a trie
+ok 2 It has a root node
+ok 3 It has a null val
+# Can add a word to the trie
+ok 4 Has a h child
+ok 5 Has a t child
+ok 6 Has a t child
+ok 7 Has a t child
+not ok 8 Doesn't have a : child
+  ---
+    operator: ok
+    expected: true
+    actual:   false
+    at: Test.<anonymous> (/Users/mattharrison/Developer/interviews/cake/11-compress-url-list/index.js:71:11)
+  ...
+
+1..8
+# tests 8
+# pass  7
+# fail  1
+
