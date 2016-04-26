@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mtharrison/interview-cake#readme",
   "dependencies": {
+    "code": "^2.1.0",
     "tape": "^4.4.0"
   }
 }
