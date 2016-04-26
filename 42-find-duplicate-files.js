@@ -69,8 +69,6 @@ const findDuplicates = function (filesystem) {
     return duplicates;
 };
 
-console.log();
-
 // Tests
 
 const Tape = require('tape');
